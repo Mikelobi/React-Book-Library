@@ -2,7 +2,7 @@
 
 <h1 align="center"> Book Library</h1>
 
-> A website that you can use to keep track of your favorite books.
+> A website that you can use to keep track your favorite books.
 > You can view your favorite books, add a new book to your favorite books list, and delete a book from your favorite books list.
 
 ## Built With
