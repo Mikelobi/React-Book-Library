@@ -1,9 +1,9 @@
-const VIEW_CATEGORIES = 'bookstore/categories/CHECK_STATUS';
+const CHECK_STATUS = 'bookstore/categories/CHECK_STATUS';
 const initialState = [];
 
 export default function reducer(state = initialState, action) {
   switch (action.type) {
-    case VIEW_CATEGORIES:
+    case CHECK_STATUS:
       return 'Page under construction';
     default:
       return state;
@@ -11,5 +11,5 @@ export default function reducer(state = initialState, action) {
 }
 
 export const checkStatus = () => ({
-  type: VIEW_CATEGORIES,
+  type: CHECK_STATUS,
 });
