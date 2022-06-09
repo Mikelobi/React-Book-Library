@@ -7,7 +7,7 @@
 
 ## Built With
 
-- **REACT** and **CSS** and **Javascript**
+- **REACT** and **CSS** and **Javascript** and **REDUX**
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Huge thanks to everyone who helped us in any capacity to complete this project
+Huge thanks to Bookstore API for consumption and everyone who helped us in any capacity to complete this project
 
 ## 📝 License
 
