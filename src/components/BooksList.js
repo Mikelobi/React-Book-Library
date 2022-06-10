@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
 import { getAllBooks } from '../redux/books/books';
+import styles from './BooksList.module.css';
 
 const BookList = () => {
   // @ts-ignore
@@ -15,11 +16,11 @@ const BookList = () => {
 
   if (books.length) {
     return (
-      <ul>
+      <div className={styles.bookListContainer}>
         {books.map((book) => (
           <Book book={book} key={book.id} />
         ))}
-      </ul>
+      </div>
     );
   }
   return (
